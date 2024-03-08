@@ -1,0 +1,106 @@
+
+@font-face {
+    
+    font-family: Kode Mono;
+    src: url();
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+h1{
+    color: rgba(21, 21, 196, 0.603);
+}
+#color1:hover{
+    transform: scale(1.1) translate(20);
+    letter-spacing: 2px;
+    background: linear-gradient(to bottom right, black, red);
+    background-clip: text;
+    color: transparent;
+ }
+    
+#color2{
+    background: linear-gradient(to bottom right, yellow, black);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+#famyli1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#famyli2{
+    font-family: "Kode Mono", monospace;
+}
+#famyli3{
+   font-size: 30pt ;
+}
+#style1{
+font-style: normal;
+}
+#style2{
+    font-style: italic;
+}
+#style3{
+    font-style: oblique;
+}
+#negrita1{
+    font-weight: bold;
+}
+#negrita2{
+    font-weight: lighter;
+}
+#negrita3{
+    font-weight: 500;
+}
+#l1{
+text-transform: uppercase;
+}
+#l2{
+  text-transform:lowercase ;  
+}
+#l3{
+  text-transform: capitalize;  
+}
+#td1{
+text-decoration: none;
+}
+#td2{
+    text-decoration: overline;
+}
+#td3{
+    text-decoration: underline;
+}
+#td4{
+    text-decoration: line-through;
+}
+#ts1{
+text-shadow: 0 0 5px blueviolet;
+
+}
+#ts2{
+   text-shadow: -3px -3px 0px yellow; 
+}
+#al1{
+text-align: left;
+line-height: 1.0;
+}
+#al2{
+    text-align: justify;
+    line-height: 2.0;
+}
+#al3{
+    text-align: right;
+    line-height: 3.0;
+}
+#al4{
+    text-align: center;
+    line-height: 4.0;
+}
+#sp1{
+letter-spacing: 3px;
+}
+#sp2{
+word-spacing: 22px;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+  #d1{
+    width:20em ;
+    height: 20em;
+   border: 4px dashed blue;
+   box-shadow: 2px 15px 20px white;
+  }
+  #d2{
+    width: 30ex;
+    height: 28ex;
+    border: 5px double gray;
+    box-shadow: -5px 20px 10px palegoldenrod;
+    background: lavender;
+  }
+  #d3{
+    width: 30ch;
+    height: 45ch;
+   border: 5px groove blue;
+   box-shadow: 2px 15px 20px white;
+   background: palegreen;
+  }
+  #d4{
+    width: 80rem;
+    height: 20rem;
+    border: 5px ridge gray;
+    box-shadow: -5px 20px 10px ridge;
+    background: cyan;
+  }
+  #d5{
+    width: 30%;
+    height: 45%
+    border: 5px double rebeccapurple;
+    box-shadow: -5px 20px 10px dotted;
+    background: magenta;
+  }
+  .blue{
+    width: 34px;
+    height: 44px;
+    background: powderblue;
+    border: 8px dashed steelblue;
+    box-shadow: 10px 5px 6px darkred;
+  }
+  .red{
+    width: 100mm;
+    height: 50mm;
+    background: lime;
+    border: 8px double steelblue;
+    box-shadow: -10px 5px 6px black;
+  }
+  .hola{
+    width: 1200q;
+    height: 100q;
+    background: plum;
+    border: 8px ridge steelblue;
+    box-shadow: -10px 20px 10px paleturquoise;
+  } 
+  #d9{
+    width: 30in;
+    height: 45in;
+    background: blueviolet;
+    border: 8px double steelblue;
+    box-shadow: 10px 5px 6px rebeccapurple;
+  }
+  #d10{
+    width: 20pc;
+    height: 67pc;
+   background: powderblue;
+    border: 8px dashed steelblue;
+    box-shadow: 10px 5px 6px cornflowerblue; 
+  }
+  #d11{
+    width: 57pt;
+    height: 89pt;
+    background: powderblue;
+    border: 8px dashed steelblue;
+    box-shadow: 10px 5px 6px cornflowerblue; 
+  }
+  #d12{
+    background: powderblue;
+    border: 8px dashed steelblue;
+    box-shadow: 10px 5px 6px cornflowerblue; 
+  }
