@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+  #d{
+    width: 600px;
+    height: 600px;
+    background:yellow;
+    border: 2px outset black;
+   /* box-shadow: 0px -10px 30px black;*/
+    margin: 100px;
+    padding: 50px;
+    border-radius: 100%; 
+  }
+  #o1{
+    width: 150px;
+    height: 150px;
+    background:white;
+    border: 2px outset black;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 100%;  
+    position: relative;
+    bottom: 630px;
+    left: 330px;
+   
+  }
+  #o2{
+    width: 150px;
+    height: 150px;
+    background:white;
+    border: 2px outset black;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 100%;  
+    position: relative;
+    bottom: 880px;
+    left: 130px;
+    
+  }
+  #b{
+    width: 90mm;
+    height: 30mm;
+    background:black;
+    /*border: 2px outset black;
+    margin: 100px;
+    padding: 50px;*/
+    position: relative;
+    border-radius: 0 0 150px 150px;
+    bottom: 900px;
+    left: 215px;
+  }
+  #oo{
+    width: 5px;
+    height: 5px;
+    background:maroon;
+    border: 2px outset black;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 100%;  
+    position: absolute;
+   top: 110px;
+    left: 150px;
+  }
+  #ooo{
+    width: 5px;
+    height: 5px;
+    background:maroon;
+    border: 2px outset brown;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 100%;  
+    position: absolute;
+   top: 110px;
+   left: 350px;
+  }
+  #l{
+    width: 70mm;
+    height: 80mm;
+    background:red;
+    /*border: 2px outset black;
+    margin: 100px;
+    padding: 50px;*/
+    position: relative;
+    border-radius: 0 0 150px 150px;
+    bottom: 970px;
+    left: 250px;
+  }

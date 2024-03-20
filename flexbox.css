@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+    .container{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+  }
+  .caja{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+ .container1{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    flex-direction: column;
+    display: flex;
+  }
+  .caja1{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+      .container2{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .caja2{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+   
+  }
+ .container3{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    flex-direction: row;
+    display: flex;
+  }
+  .caja3{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+   .container4{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    flex-direction: row-reverse;
+    display: flex;
+  }
+  .caja4{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+  /**/
+    .container5{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+   display: flex;
+  }
+  .caja5{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+ .container6{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .caja6{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+      .container7{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    display: flex;
+  }
+  .caja7{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+   
+  }
+ .container8{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  .caja8{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+   .container9{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .caja9{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+  
+      .container10{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+  }
+  .caja10{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+ .container11{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    justify-content: space-around;
+    display: flex;
+  }
+  .caja11{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+      .container12{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+  }
+  .caja12{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+   
+  }
+ .container13{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+  }
+  .caja13{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+   .container14{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-items: flex-start;
+    display: flex;
+  }
+  .caja14{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+  
+    .container15{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-items: flex-end;
+    display: flex;
+   
+  }
+  .caja15{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+ .container16{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-items: stretch;
+    display: flex;
+  }
+  .caja16{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+      .container17{
+    width: 400px;
+    height: 700px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+    align-items: baseline;
+    display: flex;
+  }
+  .caja17{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+   
+  }
+ .container18{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-content: flex-start;
+    display: flex;
+  }
+  .caja18{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+   .container19{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-content: flex-end;
+    display: flex;
+  }
+  .caja19{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+     .container20{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-content: center;
+    display: flex;
+  }
+  .caja20{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+       .container21{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-content: space-between;
+    display: flex;
+  }
+  .caja21{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+       .container22{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    align-content: space-around;
+    display: flex;
+  }
+  .caja22{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }
+       .container23{
+    width: 500px;
+    height: 600px;
+    background: darkblue;
+    margin: 50px auto;
+    font-size: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  .caja23{
+   background: skyblue;
+   height: 100px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+   
+  }

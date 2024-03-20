@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+  #layaut{
+margin: auto;
+display: block;
+width: 800px;
+height: 400px;
+background-color: forestgreen;
+border: 3px solid black;
+  }
+  #nuv1{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #nuv2{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 370px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #nuv3{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 450px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  
+  #nuv11{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+   bottom: 60px;
+    left: 380px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #nuv22{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #nuv33{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 780px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #s1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+ bottom: 130px;
+left: 650px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  #sl1{
+    width: 5px;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+   top: 60px;
+ right: 440px;
+   transform:rotate(110deg) ;
+    z-index: 1;
+  }
+  #sl2{
+    width: 5px;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+   top: 100px;
+ right: 450px;
+   transform:rotate(90deg) ;
+    z-index: 1;
+  }
+  #sl3{
+    width: 5px;
+    height: 40px;
+    background-color:  yellow;
+    position: absolute;
+   top: 140px;
+ right: 440px;
+   transform:rotate(60deg) ;
+    z-index: 1;
+  }
+  #sl4{
+    width: 5px;
+    height: 40px;
+    background-color:  yellow;
+    position: absolute;
+   top: 170px;
+ right: 410px;
+   transform:rotate(40deg) ;
+    z-index: 1;
+  }
+  #sl5{
+    width: 5px;
+    height: 40px;
+    background-color:  yellow;
+    position: absolute;
+   top: 180px;
+ right: 350px;
+   transform:rotate(180deg) ;
+    z-index: 1;
+  }
+  #ps1{
+    width: 800px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    bottom: 210px;
+    left: 280px;
+    z-index: 1;
+  }
+  #ca1{
+    width: 300px;
+    height: 200px;
+    background-color:  rgb(98, 71, 252);
+    position: absolute;
+    bottom: 240px;
+    left: 600px;
+    z-index: 1;
+    border: 3px;
+  
+}
+  #t1{
+    width: 330px;
+    height: 30px;
+    background-color: rgb(44, 25, 165);
+    position: relative;
+    bottom: 125px;
+    left: 310px;
+  }
+  #pr1{
+    width: 80px;
+    height: 135px;
+    background-color: rgb(19, 33, 44);
+    position: relative;
+    bottom: 56px;
+    left: 360px;
+    z-index: 1;
+  }
+  #p1{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(253, 253, 253);
+    position: relative;
+    bottom: 125px;
+    left: 425px;
+    z-index: 1; 
+  }
+  #v1{
+    width: 110px;
+    height: 85px;
+    background-color:  rgb(19, 33, 44);
+    position: absolute;
+    top: 220px;
+    right: 470px;
+    z-index: 1;
+  }
+  #l1{
+    width: 110px;
+    height: 5px;
+    background-color:  rgb(251, 253, 255);
+    position: absolute;
+    top: 260px;
+    right: 470px;
+    z-index: 1;
+  }
+  #l2{
+    width: 5px;
+    height: 85px;
+    background-color:  rgb(251, 253, 255);
+    position: absolute;
+    top: 220px;
+    right: 520px;
+    z-index: 1;
+  }
+#a1{
+    width: 70px;
+    height: 110px;
+    background-color:  rgb(58, 15, 15);
+    position: absolute;
+    top: 296px;
+    right: 330px;
+    z-index: 1;
+}
+  #a2{
+    width: 140px;
+    height: 120px;
+    background-color:  rgb(6, 73, 32);
+    position: absolute;
+    border-radius: 150px 150px 150px 150px;
+    top: 199px;
+    right: 300px;
+    z-index: 1;
+  }
+  #a3{
+    width: 110px;
+    height: 120px;
+    background-color:  rgb(6, 73, 32);
+    position: absolute;
+    border-radius: 120%;
+    top: 190px;
+    right: 310px;
+    z-index: 1;
+  }
+  #a4{
+    width: 70px;
+    height: 110px;
+    background-color:  rgb(58, 15, 15);
+    position: absolute;
+    top: 296px;
+    left: 345px;
+    z-index: 1;
+}
+  #a5{
+    width: 140px;
+    height: 120px;
+    background-color:  rgb(6, 73, 32);
+    position: absolute;
+    border-radius: 150px 150px 150px 150px;
+    top: 199px;
+    left: 310px;
+    z-index: 1;
+  }
+  #m1{
+    width: 5px;
+    height: 40px;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 235px;
+   left:510px ;
+   transform:rotate(30deg) ;
+    z-index: 1;
+  }
+  #m2{
+    width: 5px;
+    height: 40px;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 235px;
+   left: 530px ;
+   transform:rotate(150deg) ;
+    z-index: 1;
+  }
+  #m3{
+    width: 5px;
+    height: 50px;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 270px;
+   left:520px ;
+    z-index: 1;
+  }
+  #m4{
+    width: 5px;
+    height: 40px;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 274px;
+   left:510px ;
+   transform:rotate(30deg) ;
+    z-index: 1;
+  }
+  #m5{
+    width: 5px;
+    height: 40px;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 274px;
+   left: 530px ;
+   transform:rotate(150deg) ;
+    z-index: 1;
+  }
+  #m6{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:  rgb(1, 27, 53);
+    position: absolute;
+    bottom: 320px;
+   left: 500px ;
+   z-index: 1;
+  }

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+  }
+  div{
+    width: 200px;
+    height: 200px;
+    background: darkcyan;
+    border: 2px groove blue;
+    box-shadow: 10px 10px 10px cyan;
+    margin: 20px;
+    display:inline-block;
+  }
+  #relativo{
+    background: rgba(255, 0, 0, 0.7);
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  #absoluto{
+    background: rgba(0, 255, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  #fijo{
+    background: rgba(255, 0, 0, 0.7);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    
+  }
+  #cir{
+      border-radius: 100%;
+  }
